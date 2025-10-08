@@ -7,7 +7,7 @@ public class Main {
       int arr[] = new int[size];
       for(int i= 0;i<size;arr[i]=sc.nextInt(),i++);
       int fmax=arr[0];
-      int smax=arr[0];
+      int smax=Integer.MIN_VALUE;
       for(int i=1;i<size;i++){
         if(arr[i]>fmax){
         fmax = arr[i];
